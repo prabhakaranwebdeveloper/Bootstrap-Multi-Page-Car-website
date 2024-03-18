@@ -1,0 +1,414 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Outfit:wght@100..900&display=swap');
+
+*{
+    ::selection{
+        background-color: red;
+        color: white;
+    }
+  
+}
+
+/* Home page Styles */
+
+#activehome,#activeabout,#activeservice,#activeblog,#activegallery,#activecontact,#servicehome,#bloghome{
+    font-family: "Goldman", sans-serif; 
+}
+
+/* landingPage Styles */
+
+.carousal-image{
+ height: 100vh;
+}
+.carousal-image img{
+ height: 100vh;
+ object-fit: cover;
+}
+.rolls{
+    font-family: "Goldman", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.rollsp{
+    font-family: 'Gentium Plus';
+}
+/* WelcomePage Styles */
+
+.welcomehead,.autoservicehead{
+    font-family: "Goldman", sans-serif;
+    font-weight: bold;  
+}
+.welcomeut,.autoserviceheadcontent{
+    font-family: 'Gentium Plus';
+    font-weight: bold;
+}
+.welcomep,.welcomep1,.autoservicecontentpara{
+    font-family: 'Gentium Plus';  
+}
+#welcomebtn{
+    font-family: "Goldman", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.welcomeu,.autoservice,.linefeature{
+  text-underline-offset: 10px;
+}
+.welcomeh2{
+    padding-top: 10px;
+    font-family: 'Gentium Plus';
+    font-weight: bold;
+}
+
+/* AutoService Styles */
+
+.auto{
+padding-top: 22px;
+}
+.autocontent{
+color: white;
+position: relative;
+bottom: 80px;
+left: 30px;
+font-family: "Goldman", sans-serif;
+}
+.arrowimg{
+    position: relative;
+    bottom: 118px;
+    left: 350px;
+}
+
+/* News Styles */
+
+.Featuredhaed{
+    font-family: "Goldman", sans-serif;
+    font-weight: bold;
+}
+
+#newshead{
+    font-family: "Goldman", sans-serif;
+}
+#newspara{
+    font-family: 'Gentium Plus';
+}
+#newsbtn{
+    font-family: "Goldman", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px; 
+}
+
+/* AudiCar Styles */
+
+.audicontent{
+    position: relative;
+    bottom: 150px;
+    left: 300px;
+    color: white;
+    width: 70%;
+    font-family: 'Gentium Plus';
+    font-weight: bold;
+}
+/* Footer Styles */
+
+.bgcolor{
+    background-color: black;
+    color: white;
+}
+.footerA,.footerB{
+    font-family: "Goldman", sans-serif;
+    font-weight: bold; 
+}
+.tweetscontent{
+    padding-top: 10px;
+}
+.latesthead{
+    padding-left: 25px;
+    font-family: "Goldman", sans-serif;
+    font-weight: bold; 
+}
+.lbgcolor{
+    background-color: red;
+    color: white;
+    height: 60px;
+}
+.lbgcolor h6{
+    padding-top: 20px;
+    font-family: 'Gentium Plus'; 
+}
+.footerpara1,.footerpara3,.tweetscontent{
+    font-family: 'Gentium Plus'; 
+}
+#footerbtn{
+    font-family: "Goldman", sans-serif;
+    font-weight: bold; 
+    letter-spacing: 1px;   
+}
+
+/* Pagination Styles */
+
+
+#pagination{
+  margin-top: 20px;
+}
+.page-link{
+    color: red !important;
+}
+
+/* About Page Styles */
+
+/*  Header Styles */
+
+#activeabout{
+    font-family: "Goldman", sans-serif; 
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    margin-left: 300px;
+}
+#homeabout,#abouthome{
+    font-family: "Goldman", sans-serif; 
+}
+#about2con{
+    font-family: "Goldman", sans-serif; 
+}
+#about2con p{
+    font-family: 'Gentium Plus'; 
+}
+
+/* Our Teams Styles */
+
+.teamhead{
+    font-family: "Goldman", sans-serif; 
+    text-align: center;
+}
+#teamname{
+    font-family: "Goldman", sans-serif; 
+padding-top: 20px;  
+}
+#teamproffession{
+    font-family: 'Gentium Plus'; 
+}
+.Reviewhead{
+    font-family: "Goldman", sans-serif; 
+}
+.reviewpara{
+    font-family: 'Gentium Plus'; 
+}
+.reviewname{
+    font-family: "Goldman", sans-serif; 
+}
+
+/* Service Page Styles */
+
+.servivcehead,.mainservicehead{
+    font-family: "Goldman", sans-serif;  
+}
+.servicepara{
+    font-family: 'Gentium Plus';  
+}
+
+/* Blog Styles */
+
+.blogmainhead{
+text-align: center;
+margin-top: 50px;
+font-family: "Goldman", sans-serif; 
+}
+.blogsubhead,.bloghead{
+    font-family: "Goldman", sans-serif; 
+  
+}
+.blogsubhead,.bloghead,.blogpara{
+    padding-top: 20px;
+}
+.blogpara{
+    font-family: 'Gentium Plus';    
+}
+.blogbtn{
+    margin-top: 20px;
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: "Goldman", sans-serif;  
+
+}
+
+/* Gallery Page Styles */
+
+.gallerymainhead{
+    text-align: center;
+    font-family: "Goldman", sans-serif;  
+    margin-top: 50px;
+}
+.galleryhead{
+    margin-top: 20px;
+}
+.galleryhead,.gallerysubhead{
+    font-family: "Goldman", sans-serif;  
+}
+.galerycontent{
+    font-family: 'Gentium Plus';    
+    font-weight: bold;
+}
+.galerybtnone{
+    padding: 10px;
+}
+.galerybtntwo{
+    margin-left: 20px;
+}
+.galerybtnone,.galerybtntwo{
+    font-family: "Goldman", sans-serif;  
+font-weight: bold;
+border: none;
+background-color: red;
+color: white;
+padding: 10px;
+border-radius: 5px;
+}
+
+/* Conatct Styles */
+
+.contactmainhead{
+    font-family: "Goldman", sans-serif;  
+}
+
+.contactbtn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: "Goldman", sans-serif;  
+    font-weight: bold;
+
+}
+.mapimg{
+    margin-top: 50px;
+}
+/* Responsive Web Design */
+
+@media only screen and (max-width: 500px) {
+    .carousal-image{
+     height: 100%;
+    }
+    .carousal-image img{
+     height: 100%;
+    }
+ 
+}
+@media screen  and (max-width:1024px){
+    .audicontent{
+        position: relative;
+        bottom: 150px;
+        left: 100px;
+        color: white;
+    }
+    .auto{
+        width: 100%;
+        height:270px;
+    }
+    .arrowimg{
+       display: none;
+    }
+    .autocontent{
+display: none;
+   }
+  #homeabout,#abouthome,#servicehome,#galleryhome,#bloghome,#contacthome{
+    display: none;
+  }
+  .rg2,.rg3,.rg4,.rg11,.rg6{
+    width: 100%;
+    height: auto;
+  }
+  .rg3{
+    height: 195px;
+  }
+  .blog1img{
+    width: 100%;
+    height: 304px;
+  }
+  .galleryhead{
+    font-size: 20px;
+  }
+  .gallerysubhead{
+    font-size: 15px;
+  }
+  .galerycontent{
+    font-size: 12px;
+  }
+  .galerybtnone,.galerybtntwo{
+    padding: 10px;
+    font-size: 12px;
+  }
+  .rg3{
+    height: 223px;
+  }
+.rg11{
+    height: 198px;
+}
+}
+
+@media screen and (max-width:768px){
+    .mainlogo{
+        width: 3%;
+        height: auto;
+        margin-left: 20px;
+    }
+    .audicontent{
+        font-size: 20px;
+    }
+    .auto{
+        width: 100%;
+        height: auto;
+    }
+    .tiwtimg{
+        width: 10%;
+    }
+    .arrowimg{
+        display: none;
+    }
+    .contactbtn{
+        margin-bottom: 50px;
+    }
+    .contactimg{
+        width: 100%;
+        height: auto;
+    }
+    .blog2img{
+        width: 100%;
+        height:305px;
+        object-fit: cover;
+    }
+    .rg11{
+        object-fit: cover;
+        width: 100%;
+        height: 223px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .mainlogo{
+        width: 5%;
+        height: auto;
+        margin-left: 20px;
+    }   
+    .audicontent{
+        font-size: 10px;
+        bottom: 50px;
+        left: 50px;
+    }
+    .tiwtimg{
+        width: 10%;
+        height: auto;
+    }
+    .arrowimg{
+        display: none;
+    }
+}
