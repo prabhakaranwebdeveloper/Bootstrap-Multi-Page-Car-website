@@ -9,6 +9,14 @@
         background-color: red;
         color: white;
     }
+        #welcomebtn:hover,#newsbtn:hover,#footerbtn:hover{
+ background-color: black;
+ color: white;
+    }
+  .blogbtn:hover,.galerybtnone:hover,.galerybtntwo:hover,.contactbtn:hover{
+    background-color: black;
+    color: white;
+  }
   
 }
 
