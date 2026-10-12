@@ -9,7 +9,14 @@
         background-color: red;
         color: white;
     }
-  
+    #welcomebtn:hover,#newsbtn:hover,#footerbtn:hover{
+ background-color: black;
+ color: white;
+    }
+  .blogbtn:hover,.galerybtnone:hover,.galerybtntwo:hover,.contactbtn:hover{
+    background-color: black;
+    color: white;
+  }
 }
 
 /* Home page Styles */
@@ -272,7 +279,7 @@ padding: 10px;
 border-radius: 5px;
 }
 
-/* Conatct Styles */
+/* Contact Styles */
 
 .contactmainhead{
     font-family: "Goldman", sans-serif;  
@@ -292,6 +299,15 @@ border-radius: 5px;
 .mapimg{
     margin-top: 50px;
 }
+
+/* Pagination */
+
+.pagination .page-item.active .page-link{
+    background-color: var(--bs-white);
+    color: white;
+    border-color: var(--bs-danger);
+}
+
 /* Responsive Web Design */
 
 @media only screen and (max-width: 500px) {
